@@ -9,12 +9,12 @@ A full-stack social media web application built with the **MERN stack (MongoDB, 
 | Feature | Image |
 |--------|-------|
 | Login Page | ![Login](screenshots/loginpage.png) |
-| Signup Page | ![Signup](signuppage.png) |
-| Forgot Password | ![Forget Password](forgetpasswordpage.png) |
-| Reset Password | ![Reset Password](resetpasswordpage.png) |
-| Verify Page | ![Verify](verifypage.png) |
-| New Post | ![New Post](newpost.png) |
-| Home Page | ![Home Page](homepage.png) |
+| Signup Page | ![Signup](screenshots/signuppage.png) |
+| Forgot Password | ![Forget Password](screenshots/forgetpasswordpage.png) |
+| Reset Password | ![Reset Password](screenshots/resetpasswordpage.png) |
+| Verify Page | ![Verify](screenshots/verifypage.png) |
+| Home Page | ![Home Page](screenshots/homepage.png) |
+| New Post | ![New Post](screenshots/newpost.png) |
 
 ---
 
