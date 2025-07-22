@@ -1,0 +1,28 @@
+.ProfileSide {
+  display: flex;
+  flex-direction: column;
+  width: 300px; 
+  gap: 1rem;
+  position: sticky;
+  top: 4rem;
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+@media (max-width: 1024px) {
+  .ProfileSide {
+    width: 100%;
+    max-width: 300px;
+    position: static;
+    height: auto;
+  }
+}
+
+.login-message {
+  text-align: center;
+  padding: 2rem;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin-top: 2rem;
+}

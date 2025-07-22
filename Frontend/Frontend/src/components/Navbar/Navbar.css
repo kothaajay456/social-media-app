@@ -1,0 +1,108 @@
+.navbar {
+ 
+  width: 100%;
+  background:linear-gradient(270deg,rgb(146, 191, 146) 0%,rgb(240, 154, 221) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 0.8rem;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color:rgb(55, 52, 138);
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.linkspass:hover{
+  color: skyblue;
+}
+.navbar-user {
+  font-weight: bold;
+  color: #d81717;
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.logo{
+  flex-direction: column;
+}
+
+.birdie-logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(55, 52, 138);
+}
+
+.navbar-avatar-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 1rem;
+  top: 60px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.dropdown-item {
+  padding: 10px 16px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+.navbar-user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: 500;
+  color: #333;
+}
+

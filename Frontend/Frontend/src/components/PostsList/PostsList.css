@@ -1,0 +1,100 @@
+.posts-list {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.post-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-user {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.post-caption {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.comments-section {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.comments-section p {
+  margin: 4px 0;
+}
+.comments-section {
+  max-height: 120px;  
+  overflow-y: auto;
+  margin-top: 8px;
+  padding-right: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.btn-save svg {
+  transition: color 0.3s ease;
+}
+
+.btn-save.saved svg {
+  color: green;
+}

@@ -1,0 +1,26 @@
+.post-navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f0f2f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-navbar button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post-navbar button:hover {
+  background-color: #e4e6eb;
+  border-radius: 8px;
+}
+
+.post-navbar .active {
+  font-weight: bold;
+  border-bottom: 2px solid #1876f2;
+}

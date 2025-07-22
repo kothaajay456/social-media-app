@@ -1,0 +1,4 @@
+export const AUTH_LOGIN = "AUTH_LOGIN";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+export const FETCH_POSTS = "FETCH_POSTS";
+export const POST_UPLOAD_SUCCESS = "POST_UPLOAD_SUCCESS";

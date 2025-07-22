@@ -1,0 +1,69 @@
+.suggested-card {
+  background: #fff;
+  position: sticky;
+  top: 80px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  max-height: calc(100vh - 100px); 
+  overflow-y: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.trends-box h4,
+.suggested-users-box h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #222;
+}
+
+.trend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trend-item {
+  background: #f4f6f8;
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.trend-item:hover {
+  background: #e0e7ff;
+  color: #1d4ed8;
+}
+
+.suggested-users-box {
+  margin-top: 20px;
+}
+
+.scroll-box {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.follow-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  transition: transform 0.2s ease;
+}
+
+.follow-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.no-users {
+  font-size: 14px;
+  color: #777;
+}
