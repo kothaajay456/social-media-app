@@ -8,7 +8,7 @@ A full-stack social media web application built with the **MERN stack (MongoDB, 
 
 | Feature | Image |
 |--------|-------|
-| Login Page | ![Login](loginpage.png) |
+| Login Page | ![Login](screenshots/loginpage.png) |
 | Signup Page | ![Signup](signuppage.png) |
 | Forgot Password | ![Forget Password](forgetpasswordpage.png) |
 | Reset Password | ![Reset Password](resetpasswordpage.png) |
